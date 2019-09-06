@@ -10,7 +10,7 @@
     "tailwindcss": "^1.1.2"
   },
   "scripts": {
-    "tailwind:css": "tailwind build src/sharedStyling/tailwind.src.css -c  tailwind.config.js -o src/sharedStyling/tailwind.css",
+    "tailwind:css": "tailwind build src/tailwind.src.css -c  tailwind.js -o src/tailwind.css",
     "start": "yarn tailwind:css && react-scripts start",
     "build": "yarn tailwind:css && react-scripts build",
     "test": "react-scripts test",

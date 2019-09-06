@@ -1,10 +1,11 @@
-import React from "react";
-import logo from "./logo.svg";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <div className="App text-center">
-      <header className="App-header bg-purple-500">
+    <div className="App">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React test
+          Learn React
         </a>
       </header>
     </div>
